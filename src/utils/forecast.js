@@ -1,7 +1,8 @@
 const request = require('postman-request')
 
 const forecast = (lat,long,callback)=>{
-    const url = 'http://api.weatherstack.com/current?access_key=f3322215f9c3786bad3c035ab9e86c5d&query='+ lat +','+ long
+    // Set a new API
+    const url = 'http://api.weatherstack.com/current?access_key=979caf590fb10554e9657716adf021bb&query='+ lat +','+ long
     request ({url,json:true},(error,{body}={})=>{
         if(error){
             callback("Please check your connection",undefined)

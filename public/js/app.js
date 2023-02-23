@@ -10,6 +10,7 @@ weatherForm.addEventListener('submit',(e)=>{
     e.preventDefault()
     messageOne.textContent='Loading ...'
     messageTwo.textContent=''
+    
     fetch('/weather?address='+search.value).then((response)=>{
         response.json().then((data)=>{
             if(data.error){
