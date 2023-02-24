@@ -104,8 +104,8 @@ color: #FC9601;
 }
 
 .cloud{
-    width: 350px;
-    height: 130px;
+    width: 210px;
+    height: 90px;
     background-color: var(--cloud-bg);
     border-radius: 100px;
     box-shadow: 0 0 10px var(--cloud-bg), inset -10px -10px 30px var(--cloud-inset-shadow);
@@ -116,14 +116,14 @@ color: #FC9601;
     box-sizing: border-box;
 }
 .sun{
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   background-color: var(--sun-bg);
   box-shadow: 0 0 10px var(--sun-bg), inset -10px -10px 30px var(--sun-inset-shadow);
   position: absolute;
   top: 3%;
-  left: 13%;
+  left: 14%;
 }
 
 .cloud:before{
@@ -131,13 +131,13 @@ color: #FC9601;
   z-index: 1;
   position: absolute;
   box-sizing: border-box;
-  top: -40px;
-  left: 50px;
+  top: -30px;
+  left: 30px;
   box-sizing: border-box;
   content: '';
   z-index: 1;
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   background-color: var(--cloud-bg);
 box-shadow: 0 0 10px var(--cloud-bg);
@@ -148,13 +148,13 @@ box-shadow: 0 0 10px var(--cloud-bg);
   z-index: 1;
   position: absolute;
   box-sizing: border-box;
-  top: -75px;
-  left: 120px;
+  top: -50px;
+  left: 70px;
   box-sizing: border-box;
   content: '';
   z-index: 1;
-  width: 180px;
-  height: 180px;
+  width: 107px;
+  height: 107px;
   border-radius: 50%;
   background-color: var(--cloud-bg);
 box-shadow: 0 0 10px var(--cloud-bg);
