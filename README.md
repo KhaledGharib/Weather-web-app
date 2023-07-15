@@ -1,3 +1,3 @@
 # Weather web app
 
-[Live Demo]([https://weather-bvqj.onrender.com/])
+[Live Demo](https://weather-bvqj.onrender.com/)
